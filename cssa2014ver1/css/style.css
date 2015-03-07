@@ -1,0 +1,529 @@
+/* ================================
+Imports
+================================= */
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,300,700,800|Oswald:700|Source+Sans+Pro:400,300,300italic,200,200italic,700,400italic,700italic&subset=latin,latin-ext);
+
+/* ================================
+General
+================================= */
+body{
+	margin:0;
+	padding:0;
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+	letter-spacing: 0.48px;
+	font-size: 14px;
+	line-height: 1.6em;
+	background: #2b2b2b;
+	color:#fff;
+}
+
+h1 {
+	font-size: 36px;
+}
+h2 {
+	font-size: 32px
+}
+h3 {
+	font-size: 28px;
+}
+h4 {
+	font-size: 24px;
+}
+h5 {
+	font-size: 20px;
+}
+h6 {
+	font-size: 18px;
+}
+
+
+
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
+	color: #fff;
+	font-weight: 700;
+	margin-bottom: 20px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.lead{
+	font-weight: 400;
+}
+
+button {
+	display: inline-block;
+	margin-bottom: 0;
+	margin-bottom: 10px;
+	padding: 6px 12px;
+	border: 1px solid transparent;
+	vertical-align: middle;
+	text-align: center;
+	white-space: nowrap;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 1.428571429;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+button.navbar-toggle {
+	background: #2b2b2b;
+	border: none;
+	color: #fff;
+}
+
+
+.header {
+	background-color:rgba(64,64,64,0.5);
+	padding: 0px 0px 0px 0px;
+	height: 60px;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	z-index: 50;
+	
+
+}
+
+
+.nav{
+	float:right;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+
+	padding: 20px 0px 0px 0px;
+	text-align: right;
+}
+.nav a {
+	padding:20px 20px 20px 20px;
+	text-align: center;
+	color:#ddd;
+}
+.nav a:hover{
+	text-decoration: none;
+	background-color:rgba(61,63,64,0.5);
+	color: #ADFF2F;
+}
+
+.logo {
+	margin-top: 10px;
+	float: left;
+
+}
+
+.logo-word{
+	padding:20px 20px 20px 20px;
+	text-align: left;
+	color:#fff;
+	float: left;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+
+#current
+{
+	color:#ADFF2F;
+}
+
+#special
+{
+	color:#ff0000;
+}
+
+#special:hover{
+	color:#ff4000;
+}
+
+
+
+/* ================================
+margin, padding
+================================= */
+.mar-top0 {
+	margin-top: 0;
+}
+.mar-top10 {
+	margin-top: 10px;
+}
+.mar-top20 {
+	margin-top: 20px;
+}
+.mar-top30 {
+	margin-top: 30px;
+}
+.mar-top40 {
+	margin-top: 40px;
+}
+.mar-top50 {
+	margin-top: 50px;
+}
+.mar-top60 {
+	margin-top: 60px;
+}
+
+
+
+
+/* ================================
+Home sections
+================================= */
+
+.home-section {
+	width: 100%;
+	padding: 90px 0px 150px 0px;
+}
+
+/*.gallery {
+	padding-top: 90px;
+}*/
+
+/* --- heading --- */
+.section-heading {
+	margin-bottom: 70px;
+}
+	
+.section-heading h2 {
+	font-size: 38px;
+	text-align: center;
+	color:#fff;
+	text-transform: uppercase;
+}
+
+.craw {
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+	
+.section-heading .heading-line {
+	margin:0 auto;
+	display: block;
+	height: 1px;
+	width: 80px;
+	background: #333;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+	
+/* --- section bg var --- */
+
+.bg-white {
+	/*background: #2b2b2b;*/
+	background-image: url(../img/gray_sand.png);
+}
+
+.bg-gray {
+	background-image: url(../img/gray_sand.png);
+}
+
+.bg-dark {
+	background-image: url(../img/gray_sand.png);
+}
+
+
+.bg-logo{
+	background-image:url(../img/logo-cssa-a.jpg);
+	width: 100%;
+}
+
+.bg-color{
+	background-image:url(../img/color.jpg);
+}
+
+/* --- section content general color --- */
+
+.color-light h1,.color-light h2,.color-light h3,.color-light h4,.color-light h5,.color-light h6 {
+	color: #fff;
+}
+
+
+.color-light p {
+	color: #fff;
+}
+
+
+/* ==========================
+Spacer
+============================= */
+
+#spacer1{	
+	background-image: url(../img/spacer/222.jpg);
+	background-size: cover;
+}
+#spacer1 .row{
+	padding-top: 40px;
+}
+#spacer2{	
+	background-image: url(../img/spacer/3.jpg);
+}
+
+#spacer3{
+	background-image: url(../img/spacer/cssa.jpg);
+	padding-bottom: 70px;
+}
+
+
+/* ================================
+Intro
+================================= */
+
+#intro{
+    height:900px;
+    width:100%;
+    background-color: #2b2b2b;
+    background-image: url(../img/bg-cssa.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    overflow-y:hidden;
+    text-align:center;
+    position:relative;
+}
+
+
+
+.intro-text {
+	/*position:relative;*/
+	width:100%;
+	margin-top:180px;
+
+	z-index:1000;
+}
+#intro .brand {
+	margin-top: 40px;
+	margin-right: 550px;
+}
+.intro-text h1 a {
+	text-align:center;
+	font-weight: 700;
+	padding:9px 45px 9px 45px;
+	text-transform: uppercase;	
+	font-family: 'Oswald', sans-serif;
+	font-size:18px;
+	color: #fff;
+	white-space: normal; 
+	-webkit-border-radius: 4px; 
+	-moz-border-radius: 4px; 
+	border-radius: 4px;
+}
+.intro-text h1 a:hover {
+	text-decoration: none;
+}
+
+.line-spacer {
+	width: 20%;
+	margin:0 auto;
+	margin-top: 20px;
+	margin-bottom: 25px;
+	border-bottom:1px solid #fff;
+}
+
+.intro-text p span {
+	color:#fff;
+	font-size: 24px;
+	text-align:center;
+	font-weight: 400;
+	line-height: 1.25;
+}
+
+.brand-welcome{
+	font-family: 'Oswald', sans-serif;
+	line-height: 1.2; 
+	color: #ffffff; 
+	text-transform:uppercase; 
+	font-size: 1.75em; 
+	padding: .5em 0 .2em 0; 
+	font-weight: 900;
+}
+
+.brand-button{ background: #252728; }
+.brand-button:hover { background: #3d3f40; }
+.brand-button:active { background: #252728; }
+
+
+/* ================================
+About
+================================= */
+
+#about{
+	margin-top: 70px;
+}
+
+.left-fu{
+	right: 20px;
+	margin-top: 80px;
+	position:absolute;
+
+}
+
+.right-fu{
+	right: 5px;
+	margin-top: 0px;
+	position:absolute;
+
+}
+
+.event img {
+	margin-bottom: 45px;
+	box-shadow: 1px 1px 7px #000;
+	-moz-box-shadow: 1px 1px 7px #000;
+	-webkit-box-shadow: 1px 1px 7px #000;	
+}
+
+
+
+
+/* ================================
+Works
+================================= */
+#gallery {
+	margin-top: 90px;
+}
+#gallery img{
+	box-shadow: 1px 1px 7px #000;
+	-moz-box-shadow: 1px 1px 7px #000;
+	-webkit-box-shadow: 1px 1px 7px #000;
+}
+
+.work-heading a:hover{
+	text-decoration: none;
+	color: #ff4000;
+} 
+.see-more{
+	font-family: 'Oswald', sans-serif;
+	float: right;
+	padding-right: 38px;
+	padding-top: 23px;
+	color: #FFF;
+	font-size: 30%;
+}
+
+ul.find-list-ul {
+	list-style: none;
+	text-align: left;
+	padding-left: 10px;
+	padding-top: 5px;
+}
+
+ul.find-list-ul li a {
+	color: #fff;
+	font-size: 24px;
+	line-height: 1.2;
+	text-align: left;
+	text-decoration: none;
+}
+
+ul.find-list-ul li a:hover{
+	color: #ff4000;
+}
+
+.work-heading h2{
+	text-align: left;
+}
+
+.work-heading{
+	padding-left: 10px;
+}
+.find-heading h2{
+	text-align: left;
+}
+
+.find-heading {
+	padding-left: 0px;
+}
+.crop{
+	width: 175px;
+	height: 175px;
+}
+
+.lb-album{
+	list-style: none;
+	text-align: left;
+	float: left;
+}
+.lb-album li{
+	float: left;
+	margin: 10px 20px 10px 10px;
+	/*position: relative;*/
+}
+.lb-album li > a,
+.lb-album li > a img{
+	display: block;
+
+}
+ul.lb-album {
+	padding-left: 0px;
+
+}
+.album{
+	list-style: none;
+	float:left;
+}
+/* ================================
+Contact
+================================= */
+
+#info p{
+	text-align: left;
+	color: #dddddd;
+}
+
+#info h4{
+	text-align: left;
+	color: #dddddd;
+}
+
+.cssa-info{
+	padding-left: 50px;
+	padding-right: 50px;
+	font-size: 15px;
+}
+.contact-head{
+	padding-left: 50px;
+	padding-right: 50px;
+	margin-top: 40px;
+}
+
+.contact-list{
+	text-align: left;
+	list-style: none;
+	color: #dddddd;
+}
+
+.cssa-contact{
+	margin-top: 0px;
+}
+
+.department-list{
+	text-align: left;
+}
+
+.department-list li{
+	border-bottom: 1px solid #b5c1ad;
+	margin-bottom: 30px;
+}
+/* ================================
+Bottom widget
+================================= */
+
+/* ================================
+Footer
+================================= */
+footer {
+	background: #3d3f40;
+	color: #ddd;
+	padding: 50px 0 30px;
+}
+
+
+
+/* ================================
+more media queries
+================================= */
+
